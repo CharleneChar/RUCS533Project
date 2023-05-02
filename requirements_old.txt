@@ -1,0 +1,10 @@
+bleu
+torch
+transformers
+tokenizers
+rouge
+rouge-score
+rsa
+sacrebleu
+numpy
+huggingface-hub
