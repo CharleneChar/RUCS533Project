@@ -11,18 +11,23 @@ pip install -r requirements.txt
 ```
 
 ### 2. Run the models
-|   Flags    | Definition | Values Accepted| Default Values|
-|------------|----------|----------------|-----------------|
-| --train | Path to the training set | Any valid path | (For GPT): data/wholetrain_gpt.txt <br/>(Everything Else): data/wholetrain.csv
+|   Flags  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Definition | Values Accepted| Default Values|
+|---------------|----------|----------------|-----------------|
+| --train | Path to the training set | Any valid path | (For GPT): data/wholetrain_gpt.txt <br/>(Everything Else): data/wholetrain.csv|
 | --dev | Path to the development set | Any Valid Path | data/wholedev.csv
-| --test | Path to the test set | Any Valid Path | data/wholetest.csv
-| --output_dir | Path to the output directory| Any Valid Path | output/
-| -s, --setting | Define the setting for training (Only used in BART and T5)| 'unconstrained', 'controlled', 'predict' | unconstrained|
+| --test | Path to the test set | Any Valid Path | data/wholetest.csv|
+| --output_dir | Path to the output directory| Any Valid Path | output/|
+| -s, <br/> --setting | Define the setting for training (Only used in BART and T5)| 'unconstrained', 'controlled', 'predict' | unconstrained|
 
 ```
 python3 <model_name>.py --arguments
 ```
+The following are the list of files to run for a given model
 
+    1. Random Retrieval - random.py
+    2. SBERT Retrieval - sbert.py
+    3. GPT - gpt.py
+    4. BART - bart.py
+    5. T5 - t5.py
 
-    
 
