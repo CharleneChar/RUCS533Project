@@ -9,6 +9,11 @@ We have reimplemented the paper [***Inducing Positive Perspectives with Text Ref
 ```
 pip install -r requirements.txt
 ```
+To install pytorch, one might need to run the following command seperately
+
+```
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu117
+```
 
 ### 2. Run the models
 |   Flags  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Definition | Values Accepted| Default Values|
