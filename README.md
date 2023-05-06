@@ -14,6 +14,11 @@ To install pytorch, one might need to run the following command seperately
 ```
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu117
 ```
+If the above requirements aren't enough to work on your system, please also run the following command
+
+```
+pip install -r requirements_old.txt
+```
 
 ### 2. Run the models
 |   Flags  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Definition | Values Accepted| Default Values|
